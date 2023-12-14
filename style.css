@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{ 
+    background-color: rgb(58, 58, 58);
+}
+
+.menyu{   
+    padding-left: 80px;
+    padding-right: 80px;
+    /* box-shadow: 0px 10px 10px black; */
+    background-color:rgb(40, 40, 53);
+}
+
+.pdf{
+    float: left; 
+    width: 250px;
+    height: 100px;
+    padding: 10px;  
+}
+
+ul{
+    color: silver;
+    display: flex;
+    list-style-type: none;
+    height: 100%; 
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+li a{
+    color: rgb(149, 149, 149);
+    display: block;
+    padding: 50px 20px;
+    padding-right: 40px;
+    text-decoration: none;
+   
+}
+
+.bosh{
+border-bottom: 5px solid rgb(241, 104, 5);
+}
+
+.bosh a:hover{
+    transition: all 1s;
+    background-color: rgb(216, 102, 3);
+    color: white;
+}
+.kino{
+border-bottom:5px solid rgb(10, 13, 202);
+}
+
+.kino a:hover{
+    background-color: rgb(10, 13, 202);
+    transition: all 1s;
+    color: rgb(255, 255, 255);
+}
+
+.serial{
+    border-bottom: 5px solid rgb(120, 92, 40);
+}
+
+.serial a:hover{
+    background-color:rgb(120, 92, 40);
+    color: white;
+    transition: all 1s;
+}
+
+.janr{
+    border-bottom: 5px solid  rgb(10, 13, 202);
+}
+
+.janr a:hover{
+    background-color:  rgb(10, 13, 202);
+    color: white;
+    transition: all 1s;
+}
+
+.yil{
+    border-bottom: 5px solid rgb(230, 93, 9);
+}
+
+.yil a:hover{
+    background-color: rgb(230, 93, 9);
+    color:  white;
+    transition: all 1s;
+}
+
+.menyu2{
+    background-color: rgba(7, 5, 18, 0.5);
+    padding-left:60px;
+    padding-right:60px;
+    padding-top: 25px;
+}
+
+button{
+    cursor: pointer;
+    /* box-shadow: 0px 10px 10px black; */
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 152, 247);
+    border: none;
+    border-radius: 30px;
+    width: 1300px;
+    height: 40px;
+}
+
+.tg{
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+input{
+    /* box-shadow: 0px 10px 10px black; */
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+}
+
+.filmicion{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.menyu3{
+    background-color:rgb(40, 40, 53);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.prem{
+    color: white;
+    padding-left: 5px;
+    border-left: 5px solid red;
+}
+
+
+
+.video{
+    margin: 10px;   
+    width: 1000px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.menyu4{
+    background-color: rgba(7, 5, 18, 0.5);
+    padding-left: 190px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+h1{
+    font-size: 20px;
+}
+.rasm{
+    width: 190px;
+    height: 300px;
+}
+
+.box{
+    background-color: rgb(14, 14, 54);
+    color: white;
+    text-align: center;
+    border: black solid;
+    width: 190px;
+    height: 350px;
+    margin: 5px;
+    
+}
+
+.box:hover{
+  transform: all 0.1;  
+  background-color: rgb(40, 40, 53);
+  color: white;
+
+}
+
+.rasm:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.oxxiri{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(40, 40, 53);
+}
+
+.oxxiri2{
+    color: white;
+    text-align: center;
+}
